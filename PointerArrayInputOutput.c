@@ -51,5 +51,6 @@ void printfArray(int *p)
 	for (int i = 0; i < 10; ++i, ++p)
 	{
 		printf("%d ", *p);
+		printf("%d ", *p);				// printf("d ", p[i]); p[i] == *(p + i) 
 	}
 }
